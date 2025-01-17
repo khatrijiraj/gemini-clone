@@ -49,7 +49,7 @@ const Main = ({ toggleSidebar }) => {
   };
 
   return (
-    <div className="text-white p-4 bg-[#1b1c1d] w-full h-screen flex flex-col items-center">
+    <div className="text-white p-4 bg-[#1b1c1d] w-full h-screen flex flex-col">
       {/* Navbar */}
       <header className="flex justify-between items-center mb-4 w-full">
         {/* Left Navbar */}
@@ -170,15 +170,12 @@ const Main = ({ toggleSidebar }) => {
           />
         )}
       </footer>
-      <div>
-        <span>
-          Developed by:{" "}
-          <a href="https://www.github.com/khatrijiraj" target="_blank">
-            @khatrijiraj
-          </a>
-        </span>
-        <span></span>
-      </div>
+      <span className="mx-auto">
+        Developed by:{" "}
+        <a href="https://www.github.com/khatrijiraj" target="_blank">
+          @khatrijiraj
+        </a>
+      </span>
     </div>
   );
 };
