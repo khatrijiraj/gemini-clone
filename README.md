@@ -106,7 +106,7 @@ gemini-clone
 
 ## Preview
 
-You can view a live demo of the project [here](https://www.github.com/khatrijiraj)
+You can view a live demo of the project [here](https://gemini-clone-rajkhatri.vercel.app/)
 
 ## Author
 
